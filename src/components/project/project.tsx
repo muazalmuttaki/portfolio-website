@@ -7,7 +7,7 @@ const projects = [
     features: ["Feature 1", "Feature 2", "Feature 3"],
     image: "/image/2.jpg",
     tech: ["TypeScript", "React", "TailwindCSS", "Node.js"],
-    liveDemo: "#",
+    liveDemo: "https://portfolio-website-5yu7.vercel.app/",
     sourceCode: "#",
     details: "#",
   },
