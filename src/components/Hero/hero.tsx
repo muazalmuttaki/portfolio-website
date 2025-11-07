@@ -34,7 +34,7 @@ import { FaEnvelope, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
           </div>
           <div className="mt-10 flex flex-wrap items-center gap-4 ml-20">
             <Button variant="outline">
-             About Me 
+              Resume
             </Button>
 
             <Button variant="outline">

@@ -48,7 +48,7 @@ const Navbar = () => {
             variant="outline"
             className="text-orange-300/80 border-orange-300/80 hover:bg-orange-100/20 hover:text-white"
           >
-            Contact Me
+            Resume
           </Button>
         </div>
       )}
