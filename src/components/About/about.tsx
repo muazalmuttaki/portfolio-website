@@ -45,8 +45,8 @@ export default function AboutMe() {
             </div>
           </div>
 
-          <Button className="bg-purple-600 hover:bg-purple-700 transition text-white px-6 py-2 rounded-lg shadow-lg shadow-purple-500/30">
-            Contact Me
+          <Button className="bg-purple-600 hover:bg-purple-700 transition text-white px-6 py-2 rounded-lg shadow-lg shadow-purple-500/30 text-italic font-semibold">
+            Know More
           </Button>
         </motion.div>
       </div>

@@ -40,12 +40,6 @@ export const NavMenu = () => (
         </NavigationMenuLink>
       </NavigationMenuItem>
 
-
-      <NavigationMenuItem>
-        <NavigationMenuLink asChild>
-          <Link className="hover:text-accent hover:bg-orange-100/40 text-rose-200  font-bold" to={`/contact`}>Contact</Link>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
     </NavigationMenuList>
   </NavigationMenu>
 );
