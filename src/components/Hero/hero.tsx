@@ -1,6 +1,7 @@
  
 import { Button } from "@/components/ui/button";
 import { FaEnvelope, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link, } from "react-router";
  
 
  function Hero() {
@@ -27,10 +28,16 @@ import { FaEnvelope, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
           I'm a frontend developer focused on clean, fast, user-friendly interfaces. Browse Shadcn UI components to boost your workflow.
           </p>
           <div className="flex items-center gap-4 mt-6 text-xl text-gray-300 ml-30">
+            <Link to="https://www.facebook.com/Muaz.almuttkai">
                <FaFacebook className="hover:text-blue-500 transition-colors duration-200 cursor-pointer text-xl" />
+            </Link>
+            <Link to="Follow me on LinkedIn: www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=muaz-al-muttaki-48a64129b">
                <FaLinkedin className="hover:text-blue-500 transition-colors duration-200 cursor-pointer text-xl" />
+            </Link>
                <FaGithub className="hover:text-blue-500 transition-colors duration-200 cursor-pointer text-xl" />
+            <Link to="muazalmuttaki@gmail.com">
                <FaEnvelope className="hover:text-blue-500 transition-colors duration-200 cursor-pointer text-xxl" />
+            </Link>
           </div>
           <div className="mt-10 flex flex-wrap items-center gap-4 ml-20">
             <Button variant="outline">

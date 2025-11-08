@@ -11,7 +11,7 @@ const Navbar = () => {
         {/* Left: Logo */}
         <div className="flex items-center gap-4 md:gap-6">
           <img src="/image/logo.png" alt="Logo" className="rounded-full h-10 w-10" />
-          <span className="text-wite">WEB DEVELOPER</span>
+          <span className="text-white font-italic">WEB DEVELOPER</span>
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-4 justify-center">
             <NavMenu />
